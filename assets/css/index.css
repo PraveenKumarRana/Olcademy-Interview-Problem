@@ -1,15 +1,41 @@
+html, body{
+    font-family: Source Serif Pro;
+}
 /* header styling */
+.header{
+    padding-left: 14px;
+}
 .navbar-style{
-    background-color:#effeff;
+    background-color: #051735;
 }
 .nav-item{
-    padding-top:10px;
+    padding-top:8.7px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.seperator{
+    height: 10px;
+    background: #20bc98;
+    width:100%;
+    margin-bottom: 30px;
 }
 
 /* h1 styling */
 h1{
-    padding: 15px;
+    padding: 0px;
+    margin-bottom: 5px;
 }
+
+.post-ques{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+
+
 
 /* Style for reply button */
 #reply-button{
@@ -25,6 +51,32 @@ h1{
     visibility: hidden;
 }
 
-label{
-    font-size: 10px;
+/* Reply form margin */
+.reply-margin{
+    margin: 10px 0px;
+}
+.form-control{
+    padding: 0.75em 1em;
+}
+
+/* POSTS Box Styling */
+.posts{
+    border: 2px solid #edf2f9;
+    padding: 20px;
+    border-radius: 2%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.posts-content{
+    background: #edf2f9;
+    padding: 20px;
+    border-radius: 2%;
+}
+
+
+/* **************************** */
+
+/* Input box active effect */
+input:active{
+    background: #e8eef9;
 }
