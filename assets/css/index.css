@@ -24,3 +24,7 @@ h1{
 .reply-form-hidden{
     visibility: hidden;
 }
+
+label{
+    font-size: 10px;
+}
