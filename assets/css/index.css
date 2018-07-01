@@ -1,0 +1,26 @@
+/* header styling */
+.navbar-style{
+    background-color:#effeff;
+}
+.nav-item{
+    padding-top:10px;
+}
+
+/* h1 styling */
+h1{
+    padding: 15px;
+}
+
+/* Style for reply button */
+#reply-button{
+    text-align: end;
+    padding-block-end: 5px;
+}
+
+#comment{
+    padding: 20px;
+}
+
+.reply-form-hidden{
+    visibility: hidden;
+}
