@@ -4,32 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <title>Olcademy - Discussion Forum</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <script src="js/lib/jQuery.js"></script>
+    <title>Clothing - Discussion Forum</title>
 </head>
 <body>
     <div class="navbar-style">
         <nav class="container">
             <ul class="nav">
                 <li class="navbar-brand">
-                    <a href="#" class="nav-link">Olcademy</a>
+                    <a href="../index.html" class="nav-link">Olcademy</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Electronic</a>
+                    <a href="electronics.html" class="nav-link">Electronic</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Clothing</a>
+                    <a href="clothing.html" class="nav-link">Clothing</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Kitchen</a>
+                    <a href="kitchen.html" class="nav-link">Kitchen</a>
                 </li>
             </ul>
         </nav>
     </div>
+    <div class="seperator"></div>
     <div class="container">
-        
+        <h1 class="header">Discussion Forum - Clothing</h1>
+        <div class="row">
+            <div class="col-4 navbar-left-custom"> <!-- here the previous post will be shown -->
+                <div class="brand sidebar"><a class="brand-white"  href="../index.html">Olcademy</a></div>
+                <div class="sidebar-element sidebar"><a class="white" href="electronics.html">Electronics</a></div>
+                <div class="sidebar-element sidebar"><a class="white" href="clothing.html">Clothing</a></div>
+                <div class="sidebar-element sidebar"><a class="white" href="kitchen.html">Kitchen</a></div>
+                <div class="sidebar-element sidebar"><a class="white" href="#">Others..</a></div>
+            </div>
+            <div class="col-8" id="comment">
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" id="search-box" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 btn-lg" type="submit">Search / Ask New</button>
+                    </form> 
+                </nav>
+                <div class="posts">
+                    <h1 class="post-ques">Q. Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. 
+                    </h1>
+                    <div class="posts-content">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. Lorem Ipsum has been the 
+                        industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and 
+                        scrambled it to make a type specimen book.
+                    </p>
+                    <div class="row reply-margin">
+                        <div class=" col-10 form-group reply-form-hidden">
+                            <input class="form-control " id="hidden" type="text" placeholder="Press Enter to Submit">
+                        </div>
+                        <div class="col-2 nav-link">
+                            <p class="btn btn-primary" id="reply-button">Reply</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="posts">
+                    <h1 class="post-ques">Q. Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. 
+                    </h1>
+                    <div class="posts-content">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and 
+                            typesetting industry. Lorem Ipsum has been the 
+                            industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and 
+                            scrambled it to make a type specimen book.
+                        </p>
+                    <div class="row reply-margin">
+                        <div class=" col-10 form-group reply-form-hidden">
+                            <input class="form-control " id="hidden1" type="text" placeholder="Press Enter to Submit">
+                        </div>
+                        <div class="col-2 nav-link">
+                            <p class="btn btn-primary" id="reply-button1">Reply</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                    <div class="posts">
+                        <h1 class="post-ques">Q. Lorem Ipsum is simply dummy text of the printing and 
+                            typesetting industry. 
+                            </h1>
+                            <div class="posts-content">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and 
+                                    typesetting industry. Lorem Ipsum has been the 
+                                    industry's standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a galley of type and 
+                                    scrambled it to make a type specimen book.
+                                </p>
+                                <div class="row reply-margin">
+                                    <div class=" col-10 form-group reply-form-hidden">
+                                        <input class="form-control " id="hidden2" type="text" placeholder="Press Enter to Submit">
+                                    </div>
+                                    <div class="col-2 nav-link">
+                                        <p class="btn btn-primary" id="reply-button2">Reply</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="posts" id="show-more">Show more ...</div>
+            </div>
+        </div>
     </div>
-    <script src="assets/js/index.js"></script>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

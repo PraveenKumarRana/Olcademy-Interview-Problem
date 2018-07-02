@@ -15,16 +15,16 @@
         <nav class="container">
             <ul class="nav">
                 <li class="navbar-brand">
-                    <a href="#" class="nav-link">Olcademy</a>
+                    <a href="../index.html" class="nav-link">Olcademy</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Electronic</a>
+                    <a href="electronics.html" class="nav-link">Electronic</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Clothing</a>
+                    <a href="clothing.html" class="nav-link">Clothing</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Kitchen</a>
+                    <a href="kitchen.html" class="nav-link">Kitchen</a>
                 </li>
             </ul>
         </nav>
@@ -33,10 +33,20 @@
     <div class="container">
         <h1 class="header">Discussion Forum - Electronics</h1>
         <div class="row">
-            <div class="col-4"> <!-- here the previous post will be shown -->
-
+            <div class="col-4 navbar-left-custom"> <!-- here the previous post will be shown -->
+                <div class="brand sidebar"><a class="brand-white" href="../index.html">Olcademy</a></div>
+                <div class="sidebar-element sidebar"><a class="white" href="electronics.html">Electronics</a></div>
+                <div class="sidebar-element sidebar"><a class="white" href="clothing.html">Clothing</a></div>
+                <div class="sidebar-element sidebar"><a class="white" href="kitchen.html">Kitchen</a></div>
+                <div class="sidebar-element sidebar"><a class="white" href="#">Others..</a></div>
             </div>
             <div class="col-8" id="comment">
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" id="search-box" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 btn-lg" type="submit">Search / Ask New</button>
+                    </form> 
+                </nav>
                 <div class="posts">
                     <h1 class="post-ques">Q. Lorem Ipsum is simply dummy text of the printing and 
                         typesetting industry. 
@@ -47,13 +57,7 @@
                         typesetting industry. Lorem Ipsum has been the 
                         industry's standard dummy text ever since the 1500s, 
                         when an unknown printer took a galley of type and 
-                        scrambled it to make a type specimen book. It has 
-                        survived not only five centuries, but also the leap 
-                        into electronic typesetting, remaining essentially 
-                        unchanged. It was popularised in the 1960s with the
-                        release of Letraset sheets containing Lorem Ipsum 
-                        passages, and more recently with desktop publishing
-                        software like Aldus PageMaker including versions of Lorem Ipsum.
+                        scrambled it to make a type specimen book.
                     </p>
                     <div class="row reply-margin">
                         <div class=" col-10 form-group reply-form-hidden">
@@ -75,13 +79,7 @@
                             typesetting industry. Lorem Ipsum has been the 
                             industry's standard dummy text ever since the 1500s, 
                             when an unknown printer took a galley of type and 
-                            scrambled it to make a type specimen book. It has 
-                            survived not only five centuries, but also the leap 
-                            into electronic typesetting, remaining essentially 
-                            unchanged. It was popularised in the 1960s with the
-                            release of Letraset sheets containing Lorem Ipsum 
-                            passages, and more recently with desktop publishing
-                            software like Aldus PageMaker including versions of Lorem Ipsum.
+                            scrambled it to make a type specimen book.
                         </p>
                     <div class="row reply-margin">
                         <div class=" col-10 form-group reply-form-hidden">
@@ -98,29 +96,24 @@
                             typesetting industry. 
                             </h1>
                             <div class="posts-content">
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and 
-                                typesetting industry. Lorem Ipsum has been the 
-                                industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley of type and 
-                                scrambled it to make a type specimen book. It has 
-                                survived not only five centuries, but also the leap 
-                                into electronic typesetting, remaining essentially 
-                                unchanged. It was popularised in the 1960s with the
-                                release of Letraset sheets containing Lorem Ipsum 
-                                passages, and more recently with desktop publishing
-                                software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <div class="row reply-margin">
-                                <div class=" col-10 form-group reply-form-hidden">
-                                    <input class="form-control " id="hidden2" type="text" placeholder="Press Enter to Submit">
-                                </div>
-                                <div class="col-2 nav-link">
-                                    <p class="btn btn-primary" id="reply-button2">Reply</p>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and 
+                                    typesetting industry. Lorem Ipsum has been the 
+                                    industry's standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a galley of type and 
+                                    scrambled it to make a type specimen book.
+                                </p>
+                                <div class="row reply-margin">
+                                    <div class=" col-10 form-group reply-form-hidden">
+                                        <input class="form-control " id="hidden2" type="text" placeholder="Press Enter to Submit">
+                                    </div>
+                                    <div class="col-2 nav-link">
+                                        <p class="btn btn-primary" id="reply-button2">Reply</p>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
-                        </div>
+                    </div>
+                    <div class="posts" id="show-more">Show more ...</div>
             </div>
         </div>
     </div>
